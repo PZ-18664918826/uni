@@ -11,10 +11,7 @@ import {
 import { getToken } from '@/utils/common/user';
 import store from '@/store/index';
 import { uniRequestAdapter } from './adaper';
-/**
- * 封装axios请求类
- * @author Soybean<honghuangdc@gmail.com>
- */
+
 export default class CustomAxiosInstance {
   backendSuccessCode = 200;
 

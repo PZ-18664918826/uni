@@ -1,5 +1,7 @@
 # pz-uni
 
+node： 14.17.3
+
 ## Project setup
 ```
 yarn install
