@@ -1,0 +1,19 @@
+// 用uni全局api 时能够有提示
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+		"importHelpers": true,
+    "paths": {
+      "@/*": ["src/*"]
+    },
+		"target": "ES6",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+		"types": [
+      "@dcloudio/types",
+      "miniprogram-api-typings",
+      "mini-types"
+    ]
+  },
+	"exclude": ["node_modules"]
+}
